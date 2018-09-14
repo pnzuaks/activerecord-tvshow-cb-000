@@ -17,4 +17,6 @@ class Show < ActiveRecord::Base
     sucky_show = Show.find_by(rating: Show.lowest_rating())
     sucky_show
   end
+
+  def self.
 end
