@@ -13,4 +13,8 @@ class Show < ActiveRecord::Base
     top_show
   end
 
+  def self.least_popular_show
+    sucky_show = Show.find_by(rating: Show.lowest_rating())
+    sucky_show
+  end
 end
