@@ -5,11 +5,7 @@ class CreateShows < ActiveRecord::Migration[5.2]
       t.string :name
       t.string :network
       t.string :day
-
-
-      t.float :price
-      t.string :size
-      t.string :image_url
+      t.integer :ratings
       t.timestamps
   end
   end
