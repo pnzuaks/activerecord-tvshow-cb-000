@@ -18,5 +18,7 @@ class Show < ActiveRecord::Base
     sucky_show
   end
 
-  def self.
+  def self.ratings_sum
+    
+  end
 end
